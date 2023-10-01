@@ -4,11 +4,11 @@ var progress = import Games/Fishing2/Progress
 var level = 0
 var color = #white
 var ownedAmount = 0
-var maxAmount = 5
+var maxAmount = 10
 var baseCost = 80
 var costFactor = 0.2
-var minWaitTime = 30*40
-var maxWaitTime = 30*60
+var minWaitTime = 30*80
+var maxWaitTime = 30*120
 
 var sprite = ascii
 #
