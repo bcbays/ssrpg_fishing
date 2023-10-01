@@ -22,11 +22,17 @@ func ToString()
 func Make(level)
   this.level = level
 
-  ?level = 0
+  ?level = -1
+    color = #7f7f7f
+    minFish = 0
+    maxFish = 134
+    cost = 0
+
+  :?level = 0
     color = #white
     minFish = 0
-    maxFish = 130
-    cost = 0
+    maxFish = 142
+    cost = 40
 
   :?level = 1
     color = #cyan
