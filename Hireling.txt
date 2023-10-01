@@ -6,7 +6,7 @@ var color = #white
 var ownedAmount = 0
 var maxAmount = 5
 var baseCost = 80
-var costFactor = 0.05
+var costFactor = 0.2
 var minWaitTime = 30*40
 var maxWaitTime = 30*60
 
@@ -27,7 +27,7 @@ func Make(level)
 
   ?level = 0
     color = #white
-    baseCost = 80
+    baseCost = 12
 
   :?level = 1
     color = #cyan
@@ -35,23 +35,23 @@ func Make(level)
 
   :?level = 2
     color = #yellow
-    baseCost = 320
+    baseCost = 1800
 
   :?level = 3
     color = #green
-    baseCost = 640
+    baseCost = 20000
 
   :?level = 4
     color = #blue
-    baseCost = 1280
+    baseCost = 220000
 
   :?level = 5
     color = #red
-    baseCost = 2560
+    baseCost = 2400000
 
   :?level = 6
     color = #rainbow
-    baseCost = 5120
+    baseCost = 28000000
   
   :
     utils.Panic("Unsupported hireling level: " + level)
